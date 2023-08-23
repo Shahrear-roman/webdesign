@@ -1,4 +1,10 @@
-.container {
+/* .container{
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+} */
+
+.main-content {
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(1, 1fr);
@@ -118,6 +124,7 @@
 .body {
     display: flex;
     margin-top: 1em;
+    margin-left: 6em;
 }
 
 .body-contents {
@@ -194,13 +201,17 @@ div p {
 
 .parent-content {
     background-color: #F7F7F7;
-    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .contents {
-    height:250px;
-    width: 221px;
-    margin-top: 3em;
+    display: flex;
+    align-items: right;
+    flex-direction: column;
     margin-left: 10em;
 }
 
@@ -214,6 +225,7 @@ div p {
 .contents #contentd {
     margin-left: -1px;
     white-space: 5px;
+    margin-top: 1em;
     
 }
 
@@ -234,7 +246,7 @@ div p {
 .fot {
     height: 45px;
     width: 60%;
-    margin-top: 5em;
+    margin-top: 9em;
     background-color: #a4eb47;
     margin-left: 16em;
     border-top-left-radius: 15px;
