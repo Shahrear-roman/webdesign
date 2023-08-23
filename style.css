@@ -2,22 +2,10 @@
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 250px 300px 400px;
+    grid-template-rows: 250px 200px 400px;
     box-sizing: border-box;
 }
 
-.header {
-    grid-column: 1 / 2;
-}
-
-.menu {
-    color: aqua;
-}
-
-.footer{
-    color: red;
-    grid-column: 1 / -2;
-}
 
 .elements {
     display: flex;
@@ -127,6 +115,11 @@
     width: 12em;
 }
 
+.body {
+    display: flex;
+    margin-top: 1em;
+}
+
 .body-contents {
     display: flex;
     justify-items: center;
@@ -134,6 +127,9 @@
     margin-top: 2em;
 }
 
+.body-contents #delivery {
+    padding-top: 6px;
+}
 
 .body-contents #sentence {
    margin-top: -1em;
@@ -145,4 +141,113 @@
     margin-left: 13.5em;
     margin-top: -1.5em;
     
+}
+.body-contents {
+    display: flex;
+   
+}
+
+.parent-elements {
+    margin-left: 4em;
+}
+
+.parent-elements img h5 {
+    display: flex;
+}
+
+.elements #delivery {
+    padding-top: 1.5em;
+}
+
+.elements h5 {
+    margin-left: 2em;
+}
+
+div p {
+    margin-left: 3.6em;
+    margin-top: -1.5em;
+    opacity: .5;
+}
+
+.color {
+    height: 50px;
+    width: 100px;
+    background-color: #a4eb47;
+    margin-left: 16em;
+    margin-top: 6em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.color #icon {
+   margin-left: 2.4em;
+   margin-top: .5em;
+   color: white;
+}
+
+.color h5{
+    margin-left: 2em;
+    /* margin-top: -1px; */
+   margin-top: 1px;
+    color: white;
+}
+
+.parent-content {
+    background-color: #F7F7F7;
+    
+}
+
+.contents {
+    height:250px;
+    width: 221px;
+    margin-top: 3em;
+    margin-left: 10em;
+}
+
+
+.contents img {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.contents #contentd {
+    margin-left: -1px;
+    white-space: 5px;
+    
+}
+
+.white-circle {
+    height: 40px;
+    width: 40px;
+    background-color: #F7F7F7;
+    color: #a4eb47;
+       
+}
+
+.icon{
+    display: flex;
+}
+
+
+
+.fot {
+    height: 45px;
+    width: 60%;
+    margin-top: 5em;
+    background-color: #a4eb47;
+    margin-left: 16em;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.fot h5 {
+    color: white;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.fot a {
+    color: white;
+    text-decoration: none;
 }
