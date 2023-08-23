@@ -1,0 +1,148 @@
+.container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 250px 300px 400px;
+    box-sizing: border-box;
+}
+
+.header {
+    grid-column: 1 / 2;
+}
+
+.menu {
+    color: aqua;
+}
+
+.footer{
+    color: red;
+    grid-column: 1 / -2;
+}
+
+.elements {
+    display: flex;
+}
+
+.elements img {
+    height: 30px;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 10em;
+}
+
+.elements input {
+    height: 1.7em;
+    width: 35em;
+    margin-top: 1.2em;
+    margin-left: 9em;
+    background-color: #F7F7F7;
+    border-radius: .5em;
+    border-style: none;
+    
+}
+
+.elements #search {
+    margin-top: 2.8em;
+    margin-bottom: 2em;
+    margin-left: -2em;
+}
+
+.circle {
+    height: 2em;
+    width: 2em;
+    background-color: #F5F5F5;
+    margin-left: 7em;
+    margin-top: .6em;
+    border-radius: 2em;
+    position: relative;
+}
+
+
+
+.circle-repeat {
+    height: 2em;
+    width: 2em;
+    background-color: #F5F5F5;
+    margin-left: 2em;
+    margin-top: .6em;
+    border-radius: 2em;
+}
+
+.circle #heart {
+    padding-left: 1em;
+    margin-top: 1.5em;
+}
+
+.circle-repeat #compare {
+    padding-left: 1em;
+    margin-top: 1.5em;
+}
+
+.circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    background-color: #b0e02a;
+    /* margin-left: -.9em; */
+    border-radius: 2em;
+    /* margin-top: -5.7; */
+    color: white;
+    text-align: center;
+    font-size: x-small;
+    position: relative;
+    top: -30px;
+    left: 20px;
+}
+
+.banner {
+    position: relative;
+}
+.banner img {
+    height: 180px;
+    width: 81em;
+    margin-top: 1em;
+    margin-left: 1.5em;
+}
+
+.subscribe {
+    display: flex;
+    position: absolute;
+    height: 3em;
+    max-width: 297px;
+    padding: 5px;
+    right: 20px;
+    top: 113px;
+}
+
+.subscribe #input {
+    width: 30em;
+    border: none;
+}
+.subscribe button{
+    border: none;
+    background-color: #afe51c;
+    text-align: center;
+    width: 12em;
+}
+
+.body-contents {
+    display: flex;
+    justify-items: center;
+    margin-left: 10em;
+    margin-top: 2em;
+}
+
+
+.body-contents #sentence {
+   margin-top: -1em;
+   margin-left: 2em;
+}
+
+.body-content #p-opacity {
+    opacity: .5;
+    margin-left: 13.5em;
+    margin-top: -1.5em;
+    
+}
