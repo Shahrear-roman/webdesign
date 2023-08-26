@@ -226,6 +226,7 @@ div p {
     margin-left: -1px;
     white-space: 5px;
     margin-top: 1em;
+    opacity: 1;
     
 }
 
@@ -262,4 +263,62 @@ div p {
 .fot a {
     color: white;
     text-decoration: none;
+}
+
+.grid .card {
+    max-height: 465px;
+    max-width: 227px;
+    margin-top: 1.6em;
+    margin-left: 3em;
+}
+
+.card i {
+    color: #a4eb47;
+}
+
+.card .ptag {
+    margin-left: 2em;
+    opacity: 1;
+}
+
+.card2 {
+    height: 465px;
+    width: 305px;
+    margin-top: 1.6em;
+}
+
+.card2 .list {
+    text-align: left;
+    margin-left: -2.3em;
+}
+
+.card2 ul {
+    list-style-type: none;
+}
+
+.list ul li {
+    margin: 1em 0em;
+}
+
+.card3 {
+    height: 465px;
+    width: 305px;
+    margin-top: 1.6em;
+    margin-left: -5em;
+}
+
+
+.card3 .list {
+    text-align: left;
+    margin-left: -2.3em;
+}
+
+.card3 ul {
+    list-style-type: none;
+}
+
+.list #order {
+    margin-left: 2.5em;
+    padding-top: 9px;
+    opacity: 1;
 }
